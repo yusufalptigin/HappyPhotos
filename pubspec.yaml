@@ -1,0 +1,288 @@
+name: happy_photos
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  shared_preferences: ^2.0.6
+  image_fade: ^0.2.1
+  url_launcher: ^6.0.9
+  image_picker: ^0.8.1+3
+  extended_image: ^4.1.0
+  share: ^2.0.4
+  photofilters: ^3.0.1
+  splashscreen: ^1.3.5
+  image_cropper: ^1.3.1
+  carousel_slider: ^4.0.0
+  flutter_tabler_icons: ^1.1.1
+  flutter_colorpicker: ^0.4.0
+  screenshot: ^1.2.1
+  image_gallery_saver: ^1.6.9
+  path_provider: ^2.0.2
+  permission_handler: ^8.1.2
+  matrix_gesture_detector: ^0.1.0
+  flutter_hsvcolor_picker: ^1.1.0
+  firebase_core: ^1.4.0
+  firebase_crashlytics: ^2.1.1
+  firebase_analytics: ^8.2.0
+  onesignal_flutter: ^3.1.0
+  google_mobile_ads: ^0.13.2
+  provider: ^5.0.0
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - lang/tr.json
+    - lang/en.json
+    - images/colorBlend.jpeg
+    - images/27hafta.jpg
+    - images/6ay.jpg
+    - images/32hafta.jpg
+    - images/14hafta.jpg
+    - images/kız.jpg
+    - images/add.png
+    - images/more.png
+    - images/past.png
+    - images/peride.png
+    - images/mom.png
+    - images/step.png
+    - images/insta.png
+    - images/image.png
+    - images/save.png
+    - images/crop.png
+    - images/trans.png
+    - images/loading.png
+    - images/kids.jpeg
+    - images/Stages/Hp_Week_Badge1.png
+    - images/Stages/Hp_Week_Badge2.png
+    - images/Stages/Hp_Week_Badge3.png
+    - images/Stages/Hp_Week_Badge4.png
+    - images/Stages/Hp_Week_Badge5.png
+    - images/Stages/Hp_Week_Badge6.png
+    - images/Stages/Hp_Week_Badge7.png
+    - images/Stages/Hp_Week_Badge8.png
+    - images/Stages/Hp_Week_Badge9.png
+    - images/Stages/Hp_Week_Badge10.png
+    - images/Stages/Hp_Week_Badge11.png
+    - images/Stages/Hp_Week_Badge12.png
+    - images/Stages/Hp_Week_Badge13.png
+    - images/Stages/Hp_Week_Badge14.png
+    - images/Stages/Hp_Week_Badge15.png
+    - images/Stages/Hp_Week_Badge16.png
+    - images/Stages/Hp_Week_Badge17.png
+    - images/Stages/Hp_Week_Badge18.png
+    - images/Stages/Hp_Week_Badge19.png
+    - images/Stages/Hp_Week_Badge20.png
+    - images/Stages/Hp_Week_Badge21.png
+    - images/Stages/Hp_Week_Badge22.png
+    - images/Stages/Hp_Week_Badge23.png
+    - images/Stages/Hp_Week_Badge24.png
+    - images/Stages/Hp_Week_Badge25.png
+    - images/Stages/Hp_Week_Badge26.png
+    - images/Stages/Hp_Week_Badge27.png
+    - images/Stages/Hp_Week_Badge28.png
+    - images/Stages/Hp_Week_Badge29.png
+    - images/Stages/Hp_Week_Badge30.png
+    - images/Stages/Hp_Week_Badge31.png
+    - images/Stages/Hp_Week_Badge32.png
+    - images/Stages/Hp_Week_Badge33.png
+    - images/Stages/Hp_Week_Badge34.png
+    - images/Stages/Hp_Week_Badge35.png
+    - images/Stages/Hp_Week_Badge36.png
+    - images/Stages/Hp_Week_Badge37.png
+    - images/Stages/Hp_Week_Badge38.png
+    - images/Months/Hp_Month_Badge1.png
+    - images/Months/Hp_Month_Badge2.png
+    - images/Months/Hp_Month_Badge3.png
+    - images/Months/Hp_Month_Badge4.png
+    - images/Months/Hp_Month_Badge5.png
+    - images/Months/Hp_Month_Badge6.png
+    - images/Months/Hp_Month_Badge7.png
+    - images/Months/Hp_Month_Badge8.png
+    - images/Months/Hp_Month_Badge9.png
+    - images/Months/Hp_Month_Badge10.png
+    - images/Months/Hp_Month_Badge11.png
+    - images/Months/Hp_Month_Badge12.png
+    - images/Months/Hp_Month_Badge13.png
+    - images/Months/Hp_Month_Badge14.png
+    - images/Months/Hp_Month_Badge15.png
+    - images/Months/Hp_Month_Badge16.png
+    - images/Months/Hp_Month_Badge17.png
+    - images/Months/Hp_Month_Badge18.png
+    - images/Months/Hp_Month_Badge19.png
+    - images/Months/Hp_Month_Badge20.png
+    - images/Months/Hp_Month_Badge21.png
+    - images/Months/Hp_Month_Badge22.png
+    - images/Months/Hp_Month_Badge23.png
+    - images/Weeks/pregnancy_1.png
+    - images/Weeks/pregnancy_2.png
+    - images/Weeks/pregnancy_3.png
+    - images/Weeks/pregnancy_4.png
+    - images/Weeks/pregnancy_5.png
+    - images/Weeks/pregnancy_6.png
+    - images/Weeks/pregnancy_7.png
+    - images/Weeks/pregnancy_8.png
+    - images/Weeks/pregnancy_9.png
+    - images/Weeks/pregnancy_10.png
+    - images/Weeks/pregnancy_11.png
+    - images/Weeks/pregnancy_12.png
+    - images/Weeks/pregnancy_13.png
+    - images/Weeks/pregnancy_14.png
+    - images/Weeks/pregnancy_15.png
+    - images/Weeks/pregnancy_16.png
+    - images/Weeks/pregnancy_17.png
+    - images/Weeks/pregnancy_18.png
+    - images/Weeks/pregnancy_19.png
+    - images/Weeks/pregnancy_20.png
+    - images/Weeks/pregnancy_21.png
+    - images/Weeks/pregnancy_22.png
+    - images/Weeks/pregnancy_23.png
+    - images/Weeks/pregnancy_24.png
+    - images/Weeks/pregnancy_25.png
+    - images/Weeks/pregnancy_26.png
+    - images/Weeks/pregnancy_27.png
+    - images/Weeks/pregnancy_28.png
+    - images/Weeks/pregnancy_29.png
+    - images/Weeks/pregnancy_30.png
+    - images/Weeks/pregnancy_31.png
+    - images/Weeks/pregnancy_32.png
+    - images/Weeks/pregnancy_33.png
+    - images/Weeks/pregnancy_34.png
+    - images/Weeks/pregnancy_35.png
+    - images/Weeks/pregnancy_36.png
+    - images/Weeks/pregnancy_37.png
+    - images/Weeks/pregnancy_38.png
+    - images/Baby/baby1.png
+    - images/Baby/baby2.png
+    - images/Baby/baby3.png
+    - images/Baby/baby4.png
+    - images/Baby/baby5.png
+    - images/Baby/baby6.png
+    - images/Baby/baby7.png
+    - images/Baby/baby8.png
+    - images/Baby/baby9.png
+    - images/Baby/baby10.png
+    - images/Baby/baby11.png
+    - images/Baby/baby12.png
+    - images/Baby/baby13.png
+    - images/Baby/baby14.png
+    - images/Baby/baby15.png
+    - images/Baby/baby16.png
+    - images/Baby/baby17.png
+    - images/Baby/baby18.png
+    - images/Baby/baby19.png
+    - images/Baby/baby20.png
+    - images/Various/hp_baby_badge1.png
+    - images/Various/hp_baby_badge2.png
+    - images/Various/hp_baby_badge3.png
+    - images/Various/hp_baby_badge4.png
+    - images/Various/hp_baby_badge5.png
+    - images/Various/hp_baby_badge6.png
+    - images/Various/hp_baby_badge7.png
+    - images/Various/hp_baby_badge8.png
+    - images/Various/hp_baby_badge9.png
+    - images/Various/hp_baby_badge10.png
+    - images/Various/hp_baby_badge11.png
+    - images/Various/hp_baby_badge12.png
+    - images/Various/hp_baby_badge14.png
+    - images/Various/hp_baby_badge15.png
+    - images/Various/hp_baby_badge16.png
+    - images/Various/hp_baby_badge17.png
+    - images/Various/hp_baby_badge18.png
+    - images/Various/hp_baby_badge19.png
+    - images/Various/hp_baby_badge20.png
+    - images/Various/hp_baby_badge21.png
+    - images/Various/hp_baby_badge22.png
+    - images/Various/hp_baby_badge23.png
+    - images/Various/hp_baby_badge24.png
+    - images/Various/hp_baby_badge25.png
+    - images/Various/hp_baby_badge26.png
+    - images/Various/hp_baby_badge27.png
+    - images/Various/hp_baby_badge28.png
+    - images/Various/hp_baby_badge29.png
+    - images/Various/hp_baby_badge30.png
+    - images/Various/hp_baby_badge40.png
+    - images/Various/hp_baby_badge41.png
+    - images/Various/hp_baby_badge42.png
+    - images/Various/hp_baby_badge43.png
+    - images/Various/hp_baby_badge44.png
+    - images/Various/hp_baby_badge45.png
+    - images/Various/hp_baby_badge46.png
+    - images/Various/hp_baby_badge47.png
+    - images/asama.png
+    - images/ay.png
+    - images/cesit.png
+    - images/bebek.png
+    - images/hafta.png
+    - images/palet.png
+    - images/cop.png
+    - images/geri.png
+
+
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

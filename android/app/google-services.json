@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "60086732970",
+    "firebase_url": "https://happy-photos.firebaseio.com",
+    "project_id": "happy-photos",
+    "storage_bucket": "happy-photos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60086732970:android:54495ced9a235478bd68d3",
+        "android_client_info": {
+          "package_name": "tr.com.happydigital.happyphotos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60086732970-odu09gepjidk4bi42leqca9gq5hhqmls.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tr.com.happydigital.happyphotos",
+            "certificate_hash": "420fe41251d9cb6726b926998b41ad9f25814432"
+          }
+        },
+        {
+          "client_id": "60086732970-vs3us07fl22chhfa7n3qme32adml7o4t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAayP9LiV4CJVCUz6bGkq_oE_dXFCWEtJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60086732970-vs3us07fl22chhfa7n3qme32adml7o4t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "60086732970-b7cqqme05bs9jtndo3hf9q21m4ceegv6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "tr.com.happydigital.happyphotos",
+                "app_store_id": "1317783824"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
